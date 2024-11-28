@@ -79,7 +79,7 @@ a {
     width: 90%;
     margin: auto;
     margin-top: 50px;
-    background-color: aqua;
+    
 
 }
 
@@ -237,4 +237,45 @@ a {
 .espaço1 {
     height: 350px;
     
+}
+
+@media screen and (min-Width:768px) {
+
+    .espaço1 {
+        display: none;
+    }
+
+    .perfil {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        margin: 150px auto;
+        
+    }
+
+    .perfil > img {
+        float: none;
+        flex: 1;
+        margin: 0px;
+        
+
+    }
+
+    .sobre {
+        flex: 2;
+        float: none;
+        position: relative;
+        align-self: center;
+        
+       
+        width: auto;
+        margin: 0px;
+        height: fit-content;
+        padding-left: 20px;
+        
+    }
+
+    .recent {
+        width: 80%;
+    }
 }
