@@ -24,12 +24,15 @@
 }
 
 html {
-    height: 100%;
+    height: fit-content;
 }
 
 body {
     background-image: url('../img/fundo6.png');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100%;
     
 }
@@ -138,9 +141,9 @@ a {
     background-color: #33282F;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: ;
+    margin-bottom: 50px;
     text-align: center;
-    height: 150px;
+    height: 250px;
     
     
 }
@@ -150,6 +153,10 @@ a {
     color: white;
     padding-top: 20px;
     
+}
+
+.agende > p {
+    color: #CF3474;
 }
 
 .agende > a {
@@ -166,7 +173,64 @@ a {
     animation: headShake 1s;
 }
 
+.adress {
+    background-color: transparent;
+    text-align: center;
+}
 
+.adress > i {
+    color: #F91473;
+    font-size: 2em;
+}
+
+.adress > p {
+    color: white;
+}
+
+.redes {
+    
+    background-color:black;
+    border: 2px solid #F91473;
+    height: 250px;
+    width: 15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+    transition: 1s;
+    
+}
+
+.redes:hover  {
+    width: 70px;
+}
+
+.redes > i {
+    font-size: 3em;
+    display: none;
+    
+}
+
+.redes:hover > i {
+    display: block;
+}
+
+.redes > i:hover {
+    color: #4F3B44;
+}
+
+.insta {
+    color: rgb(250, 47, 101);
+
+}
+
+.face {
+    color: rgb(57, 57, 247);
+}
+
+.whats {
+    color: rgb(65, 239, 111);
+}
 
 
 .espaço1 {
