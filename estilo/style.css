@@ -191,6 +191,7 @@ a {
     
     background-color:black;
     border: 2px solid #F91473;
+    border-right: none;
     height: 250px;
     width: 15px;
     margin-left: auto;
